@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Registration_form.css'; 
-import logo from '../assets/tm_logo2.svg'
+import logo from '../assets/tm_logo.jpg'
 
 function Registration_form() {
   const [formData, setFormData] = useState({
