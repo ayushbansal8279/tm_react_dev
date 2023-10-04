@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Registration_form from "./components/Registration_form";
 import Home from "./components/Home";
@@ -10,6 +10,9 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <Link to={"form"}>
+      change
+    </Link>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="form" element={<Registration_form/>}/>
