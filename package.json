@@ -1,5 +1,5 @@
 {
-  "name": "tm_react_dev",
+  "name": "tm_react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "amplify": "^0.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0"
