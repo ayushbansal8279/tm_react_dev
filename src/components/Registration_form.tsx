@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Registration_form.css'; 
-// import '../assets/'
+
 function Registration_form() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -14,7 +14,7 @@ function Registration_form() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event:React.FormEvent) => {
+  const handleSubmit = (event:React.event) => {
     event.preventDefault();
     // You can handle form submission logic here
     console.log('Form submitted with data:', formData);
@@ -22,7 +22,7 @@ function Registration_form() {
 
   return (
     <div>
-        <img src='../assets/tm_logo2.svg' alt='logo' style={{width:"150px"}}/>
+        <img src='src/assets/tm_logo.jpg' alt='logo' style={{width:"150px"}}/>
       <h2>Registration Form</h2>
       <form onSubmit={handleSubmit}>
         <div>
