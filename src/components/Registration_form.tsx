@@ -9,12 +9,12 @@ function Registration_form() {
     password: '',
   });
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event:React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event:React.FormEvent) => {
     event.preventDefault();
     // You can handle form submission logic here
     console.log('Form submitted with data:', formData);
