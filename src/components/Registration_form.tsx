@@ -22,7 +22,7 @@ function Registration_form() {
 
   return (
     <div>
-        {/* <img src='src/assets/tm_logo.jpg' alt='logo' style={{width:"150px"}}/> */}
+        <img src='src/assets/tm_logo.jpg' alt='logo' style={{width:"150px"}}/>
       <h2>Registration Form</h2>
       <form onSubmit={handleSubmit}>
         <div>
