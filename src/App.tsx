@@ -1,13 +1,19 @@
 // import { useState } from 'react'
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
+import Home from './components/Home'
+import Form from './components/Form'
 
 function App() {
 
   return (
-    <>
-      TM Home Page
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='form/' element={<Form/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
