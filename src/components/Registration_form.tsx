@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Registration_form.css'; 
-
+// import '../assets/'
 function Registration_form() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -22,7 +22,7 @@ function Registration_form() {
 
   return (
     <div>
-        <img src='src/assets/tm_logo2.svg' alt='logo' style={{width:"150px"}}/>
+        <img src='../assets/tm_logo2.svg' alt='logo' style={{width:"150px"}}/>
       <h2>Registration Form</h2>
       <form onSubmit={handleSubmit}>
         <div>
