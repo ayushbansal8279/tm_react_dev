@@ -8,7 +8,7 @@ function App() {
 
   // const urlr = import.meta.env.VITE_REGION;
   return (
-    <>
+    
     <BrowserRouter>
     <Link to={"form"}>
       change
@@ -18,7 +18,7 @@ function App() {
         <Route path="form" element={<Registration_form/>}/>
       </Routes>
     </BrowserRouter>
-    </>
+ 
   );
 }
 
