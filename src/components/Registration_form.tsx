@@ -14,7 +14,7 @@ function Registration_form() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event:React.event) => {
+  const handleSubmit = (event:React.FormEvent) => {
     event.preventDefault();
     // You can handle form submission logic here
     console.log('Form submitted with data:', formData);
